@@ -1,0 +1,114 @@
+.navbar{
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 16.48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    list-style: none;
+    z-index: 1;
+}
+.logo{
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 25.75px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+ul{
+    font-family: "Work Sans";
+    font-weight: 500;
+    width: 100%;
+    list-style: none;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.navbutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar li{
+    color: black;
+    margin-right: 20px;
+}
+#login{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: #2B4D57 ;
+    border-radius: 10px;
+    border-width: 2px;
+}
+.section1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightblock{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+.rightblock img{
+    grid-area: 1/1;
+    align-self: baseline;
+}
+.object{
+    position: relative;
+    margin-left: auto;
+    left: 1.7%;
+    top: 3.2%;
+    height: 665.17px;
+    width: 481.61px;
+}
+.fill{
+    position: relative;
+    right: 5%;
+    top: 3.2%;
+}
+.border{
+    position: relative;
+    right: 10%;
+    bottom: 0.8%;
+}
+.groupeddots{
+    position: relative;
+    bottom: 44.2%;
+    right: 21%;
+}
+.leftblock{
+    align-self: center;
+    position: relative;
+    margin-left: 2.5%;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    border: none;
+    background-color: #FF7350;
+}
+.titleText{
+    font-family: "Work sans";
+    font-size: 20.6px;
+    font-weight: 600;
+    color: #FF7350;
+}
+.captionText{
+    font-family: "Work sans";
+    font-size: 62.87px;
+    font-weight: 600;
+}
+.specifierText{
+    font-family: "Work sans";
+    font-size: 20.6px;
+    font-weight: 600;
+    color: #45636C;
+}
+
+
+
